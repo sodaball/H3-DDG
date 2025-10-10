@@ -1,0 +1,7 @@
+__pycache__/
+.vscode
+__pypackages__/
+
+wandb/
+data/
+results/

@@ -1,0 +1,35 @@
+{
+  "num_cvfolds": 3,
+  "patch_size": 128,
+  "weight_decay": 0.0,
+  "seed": 42,
+
+  "ca_only": false,
+  "hidden_dim": 128,
+  "num_layers": 3,
+  "backbone_noise": 0.0,
+  "num_edges": 48,
+
+  "loss_weight_boltzmann": 1.0,
+  "lr": 0.00004,
+  "batch_size": 1,
+  "val_freq": 500,
+  "max_iter": 50000,
+  "ex_type": "train", 
+  "ex_name": "cv3_h3-ddg_train",
+
+  "use_hypergraph": true,
+  "hyper_ratio": 4,
+  "max_num_hyperedges": 420,
+  "num_mut_subgraph_nodes": 20,
+  "num_edges_ratio": 3.0,
+  "edges_selection": "dynamic",
+
+  "num_tri_heads": 4,
+
+  "save_threshold_fold0": 0.6,
+  "save_threshold_fold1": 0.6,
+  "save_threshold_fold2": 0.6,
+
+  "ckpt_path": "path_to_ckpt"
+}
