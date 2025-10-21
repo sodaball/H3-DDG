@@ -50,3 +50,19 @@ python validate_all.py --save_dir SAVE_DIR --top_k TOP_K
 
 `SAVE_DIR` is the folder where training results are saved, and `TOP_K` is the number of best folds to select.
 
+## Citation and Contact
+
+If you find H3-DDG useful for your research and applications, please cite:
+
+```
+@inproceedings{
+    xu2025h3ddg,
+    title={Accurately Predicting Protein Mutational Effects via a Hierarchical Many-Body Attention Network},
+    author={Dahao Xu and Jiahua Rao and Mingming Zhu and Jixian Zhang and Wei Lu and Shuangjia Zheng and Yuedong Yang},
+    booktitle={Thirty-ninth Annual Conference on Neural Information Processing Systems},
+    year={2025},
+    url={https://neurips.cc/virtual/2025/poster/119261}
+}
+```
+
+Please contact [Jiahua Rao](raojh7@mail.sysu.edu.cn) for any questions or suggestions.
