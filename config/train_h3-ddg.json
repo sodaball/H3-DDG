@@ -14,7 +14,7 @@
   "lr": 0.00004,
   "batch_size": 1,
   "val_freq": 500,
-  "max_iter": 50000,
+  "max_iter": 38000,
   "ex_type": "train", 
   "ex_name": "cv3_h3-ddg_train",
 
