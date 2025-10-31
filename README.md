@@ -1,6 +1,6 @@
 # Accurately Predicting Protein Mutational Effects via a Hierarchical Many-Body Attention Network
 
-[![NeurIPS](https://img.shields.io/badge/NeurIPS-2025-plum.svg)](https://neurips.cc/Conferences/2025)
+[![NeurIPS](https://img.shields.io/badge/NeurIPS-2025-plum.svg)](https://openreview.net/forum?id=CrxR6CYeQn)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.13.1-pink.svg)](https://pytorch.org/)
 [![Skempi](https://img.shields.io/badge/Skempi-v2.0-skyblue.svg)](https://life.bsc.es/pid/skempi2/)
 
