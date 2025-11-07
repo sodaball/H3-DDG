@@ -29,7 +29,7 @@ bash get_skempi_v2.sh
 
 ## Model Setup
 
-1. Download the pre-trained inverse folding model from the ProteinMPNN official repository
+1. Download a pre-trained inverse folding model from the ProteinMPNN official repository. You can choose different pre-trained weights. In this project, we use `soluble_model_weights/v_48_020.pt`.
 2. Place the checkpoint file in your desired location
 3. Update the `ckpt_path` in `train_h3-ddg.json` to point to your downloaded checkpoint file
 
@@ -37,7 +37,7 @@ bash get_skempi_v2.sh
 
 To train the model, run:
 ```bash
-python train.py --config_path ./config/train_h3-ddg.json --tag TAG
+python train_skempi.py --config_path ./config/train_h3-ddg.json --tag TAG
 ```
 
 `TAG` is a user-defined name for the training session. A subfolder with the same name will be created under results, storing all outputs such as `results.csv` (prediction results) and `train.log` (training logs and metrics).
